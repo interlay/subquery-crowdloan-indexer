@@ -3,7 +3,7 @@ description: Allow users to query crowdloan and auction data from Kusama/Polkado
 repository: ''
 schema: ./schema.graphql
 network:
-  endpoint: 'wss://kusama.api.onfinality.io/public-ws'
+  endpoint: 'wss://polkadot.api.onfinality.io/public-ws'
   dictionary: 'https://api.subquery.network/sq/subquery/dictionary-kusama'
 dataSources:
   - name: KusamaRuntime
